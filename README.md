@@ -4,7 +4,7 @@ We also include UI Control for: moving the right wall by left clicking with your
 
 Contrary to [another repo](https://github.com/taichi-dev/taichi_dem), we support tangential friction and include a slider for augmenting its affect on the particles.
 
-<img src="https://raw.githubusercontent.com/taichi-dev/public_files/master/taichi_dem/demo.gif" height="270px">
+![Screenshot DEM](./dem.gif) 
 
 ## Installation
 Make sure your `pip` is up-to-date:
