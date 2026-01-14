@@ -19,10 +19,15 @@ Assume you have a Python 3 environment, to install Taichi:
 $ pip3 install -U taichi
 ```
 
-To run the demo:
+To run the DEM demo:
 
 ```bash
-$ python dem.py
+$ python sim.py
+```
+To run the PBD Sand demo:
+
+```bash
+$ python sim.py --pbd
 ```
 
 ## Assumptions
@@ -31,6 +36,8 @@ The `sim.py` implements a minimal DEM solver with the following assumptions:
 - All paricles are round circles with variable radius.
 - normal and tangential forces between particles are included - angular or rolling forces are not included.
 - The deformation of the particles is not included.
+
+This `sim.py` also implements a minimal PBD sand solver approximetly following the bottom refrence my Macklin and colleagues.
 
 ## Open missions
 There are plenty of room for hacking! We suggest a few of them for you to start with:
