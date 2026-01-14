@@ -1,9 +1,10 @@
-# Taichi DEM
-A minimal DEM simulation demo written in Taichi.
+# Improved Taichi DEM and PBD Sand Simulation
+Includes: 1) A minimal DEM simulation demo written in Taichi, and 2) a minimal PBD sand simulation
+We also include UI Control for: moving the right wall by left clicking with your mouse, and changing the angle of repose parameter which affects the tangential friction strength. 
+
+Contrary to [another repo](https://github.com/taichi-dev/taichi_dem), we support tangential friction and include a slider for augmenting its affect on the particles.
 
 <img src="https://raw.githubusercontent.com/taichi-dev/public_files/master/taichi_dem/demo.gif" height="270px">
-
-> To implement your own version, click the "Use this template" button on this page and simply modify the `dem.py` script.
 
 ## Installation
 Make sure your `pip` is up-to-date:
@@ -25,19 +26,17 @@ $ python dem.py
 ```
 
 ## Assumptions
-The `dem.py` implements a minimal DEM solver with the following assumptions:
+The `sim.py` implements a minimal DEM solver with the following assumptions:
 
 - All paricles are round circles with variable radius.
-- Only the normal force between particles is considered - the tangential force is not included.
+- normal and tangential forces between particles are included - angular or rolling forces are not included.
 - The deformation of the particles is not included.
-- Ignore the angular momentum of the particle and only consider the translation of the particle.
 
 ## Open missions
 There are plenty of room for hacking! We suggest a few of them for you to start with:
-- Reduce the neighborhood search region from the 3x3 grid cells to only 5 grid cells
-- Support more particle geometries
-- Implement angular momentum of the particles
-- Include tangential forces
+- PBD sand does not replicate DEM angle of repose settings, either eith mui_static or mui_dynamic
+- Support more DEM settings, 
+- Implement angular momentum of the particles, rolling friction
 - ...
 
 ## Show your work!
