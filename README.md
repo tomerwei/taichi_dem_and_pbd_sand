@@ -30,6 +30,9 @@ To run the PBD Sand demo:
 $ python sim.py --pbd
 ```
 
+![Screenshot PBD](./pbd.gif) 
+
+
 ## Assumptions
 The `sim.py` implements a minimal DEM solver with the following assumptions:
 
