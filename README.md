@@ -35,9 +35,10 @@ The `sim.py` implements a minimal DEM solver with the following assumptions:
 ## Open missions
 There are plenty of room for hacking! We suggest a few of them for you to start with:
 - PBD sand does not replicate DEM angle of repose settings, either eith mui_static or mui_dynamic
-- Support more DEM settings, 
+- Support more DEM settings, shear forces, etc.
 - Implement angular momentum of the particles, rolling friction
 - ...
 
-## Show your work!
-We encourage you to continue developing on this repo and share your work with our community members. To notify us about your work, make sure you use this repo as a template.
+## References
+["Unified particle physics for real-time applications"](https://mmacklin.com/uppfrta_preprint.pdf) Macklin, Miles, et al, ACM Transactions on Graphics (TOG) 33.4 (2014): 1-12.
+["Particle-Based Simulation of Granular Materials"](https://mmacklin.com/uppfrta_preprint.pdf](http://wnbell.com/media/2005-07-SCA-Granular/BeYiMu2005.pdf) Bell, Nathan, et al, Proceedings of the 2005 ACM SIGGRAPH/Eurographics symposium on Computer animation. 2005.
