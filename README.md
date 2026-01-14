@@ -41,4 +41,4 @@ There are plenty of room for hacking! We suggest a few of them for you to start 
 
 ## References
 ["Unified particle physics for real-time applications"](https://mmacklin.com/uppfrta_preprint.pdf) Macklin, Miles, et al, ACM Transactions on Graphics (TOG) 33.4 (2014): 1-12.
-["Particle-Based Simulation of Granular Materials"](https://mmacklin.com/uppfrta_preprint.pdf](http://wnbell.com/media/2005-07-SCA-Granular/BeYiMu2005.pdf) Bell, Nathan, et al, Proceedings of the 2005 ACM SIGGRAPH/Eurographics symposium on Computer animation. 2005.
+["Particle-Based Simulation of Granular Materials"](http://wnbell.com/media/2005-07-SCA-Granular/BeYiMu2005.pdf) Bell, Nathan, et al, Proceedings of the 2005 ACM SIGGRAPH/Eurographics symposium on Computer animation. 2005.
